@@ -1,0 +1,68 @@
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.stretch {
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.navbar-default {
+    background-color: #183156;
+}
+.logo-area {
+    text-align: center;
+    position: relative;
+    background-color: #008b8b;
+    border: solid;
+    border-color: #008b8b;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+}
+.logo-area img {
+    max-width: 200px;
+    position: relative;
+}
+.container {
+    max-width: 900px;
+}
+.item img {
+    max-height: 400px;
+    width: 100%;
+}
+.thumbnail-area {
+    padding-top: 20px;
+    min-height: 500px;
+}
+.thumbnail {
+    background-color: #183156;
+}
+#carousel-example-generic {
+    padding-bottom: 0;
+    -webkit-border-radius: 4px;
+  }
+.carousel-indicators li {
+    border: none;
+}
+.carousel-indicators .active {
+    width: 0px;
+    height: 0px;
+}
+.bold {
+    font-size: 120%;
+    text-shadow: 3px 3px 10px black;
+}
+img {
+    -webkit-border-radius: 5px;
+}
+.btn-default {
+    background-color: #008b8b;
+    border-color: #003366;
+}
