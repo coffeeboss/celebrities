@@ -66,3 +66,16 @@ img {
     background-color: #008b8b;
     border-color: #003366;
 }
+.form-contact {
+    background-color: #008b8b;
+    -webkit-border-radius: 4px;
+    padding: 20px;
+}
+.navbar-bottom {
+    background-color: #183156;
+    -webkit-border-radius: 4px;
+}
+.navbar-form .form-contact {
+    text-decoration-color: #30932e;
+    background-color: #30932e !important;
+}
