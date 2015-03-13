@@ -72,10 +72,61 @@ img {
     position: relative;
     object-position: bottom;
 }
+.menu-category {
+    color: #ffffff;
+    background-color: #183156;
+    -webkit-border-radius: 4px;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+}
+.menu-header {
+    color: #183156;
+    text-align: center;
+    align-items: center;
+}
+.menu-item {
+    margin-top: 4px;
+    -webkit-border-radius: 4px;
+}
+.media-body {
+    color: #003366;
+    margin-top: 4px;
+
+
+}
+.btn-form {
+    background-color: #183156;
+    text-align: center;
+    max-height: 40px;
+    position: relative;
+    object-position: bottom;
+}
 .form-contact {
     background-color: #008b8b;
     -webkit-border-radius: 4px;
     padding: 20px;
+}
+.form-contact-address {
+    align-items: baseline;
+    padding: 10px;
+    background-color: #183156;
+    background-size: auto;
+    -webkit-border-radius: 4px;
+    min-width: 205px;
+}
+.form-contact-address img {
+    margin-left: -10px;
+}
+.form-group-sm input {
+    max-width: 200px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.form-group-lg textarea {
+    max-width: 570px;
+    margin-left: 20px;
 }
 .navbar-bottom {
     background-color: #183156;
@@ -90,22 +141,15 @@ img {
 input {
     -webkit-border-radius: 4px;
     background-color: #ffffff;
-    margin: 10px;
 }
 textarea {
     -webkit-border-radius: 4px;
     background-color: #ffffff;
     margin: 10px;
     text-decoration-color: #008b8b;
+    font-size: .5%;
 }
 .footer {
     color: #000b15;
     text-align: center;
-}
-.texbox {
-}
-.bold {
-    -webkit-border-radius: 4px;
-    background-color: #ff464f;
-    padding: 0px;
 }

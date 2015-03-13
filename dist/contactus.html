@@ -61,37 +61,47 @@
                             </div>
                             <button type="submit" class="btn btn-default">Search</button>
                         </form>
-                        <!-- <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul> -->
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12">
-            <div class="bold">
+        <div class="col-sm-3">
+            <div class="form-contact-address">
+                <img src="img/celebrities_logo.png">
+                <h4>
+                    Address:
+                </h4>
+                <p>
+                    127 West 40th st.<br>
+                    San Bernardino, CA 92407<br>
+                </p>
+                <h4>
+                    Phone:
+                </h4>
+                <p>
+                    909.882.2802
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-9">
             <div class="form-contact">
                 <form action="#" method="get">
-                    First Name: <input type="text" name="fname" placeholder="  First Name"><br>
-                    Last Name: <input type="text" name="1name" placeholder="  Last Name"><br>
-                    Email Address: <br>
-                    <input type="email" name="email" placeholder="  @"><br>
-                    Content: <br>
-                    <textarea class="form-control" rows="6"></textarea><br>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <div class="form-group-sm">
+                        <label>First name:</label>
+                        <input name="firstName" class="form-control" placeholder="First name"/>
+                        <label>Last name:</label>
+                        <input name="lastName" class="form-control" placeholder="Last name"/>
+                        <label>Email address:</label>
+                        <input name="emailAddress" class="form-control" placeholder="Email address"/>
+                    </div>
+                    <div class="form-group-lg">
+                        <label>Content:</label>
+                        <textarea class="form-control" rows="6" placeholder="..."></textarea>
+                        <button type="submit" class="btn btn-form">Send</button>
+                    </div>
                 </form>
-            </div>
             </div>
         </div>
     </div>
