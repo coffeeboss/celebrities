@@ -60,6 +60,8 @@
 .carousel-indicators .active {
     width: 0px;
     height: 0px;
+    background-color: transparent !important;
+    color: transparent;
 }
 .bold {
     font-size: 120%;
