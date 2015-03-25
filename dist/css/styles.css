@@ -33,6 +33,9 @@ body {
   padding-bottom:20px;
 }
 
+.logoheader {
+    background-color: #2e2e2e;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -109,6 +112,7 @@ h1 {
 
 .logo {
     float: left;
+    padding-left: 10%;
 }
 
 #nav {
@@ -179,6 +183,22 @@ h1 {
 	header {
 	
 	}
+}
+
+.menu-list-area {
+    padding-top: 2%;
+    padding-left: -40px;
+    color: #2e2e2e;
+}
+
+ul.menu-list {
+    alignment: left;
+    position: fixed;
+    line-height: 2em;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #map-canvas {

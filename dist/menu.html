@@ -1,449 +1,227 @@
-<html>
-<head lang="en">
-    <meta http-equiv="content-type" content="text/html; charset-ISO-8859-1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
     <title>Celebrities Sports Grill</title>
     <link rel="shortcut icon" type="img/celebrities_logo_tab.png" href="img/celebrities_logo_tab.png">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/theme.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div id="background">
-        <img src="img/background.jpg" class="stretch" alt="gradiant" />
+<!-- Wrap all page content here -->
+<div id="wrap">
+    <div class="row logoheader">
+        <div class="col-lg-12">
+            <div class="logo"><img src="img/celebrities_logo.png"></div>
+        </div>
     </div>
-<div class="container">
-    <div class="row">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="logo-area">
-                    <img src="img/celebrities_logo.png"/>
-                </div>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <!--Navigation Bar: Home, Menu, Events, Reservations, Location and Hours-->
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.html">Home</a>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li><a href="menu.html">Menu</a></li>
-                                <li><a href="drinks.html">Drinks</a></li>
-                                <li><a href="reservations.html">Reservations</a></li>
-                                <li class="dropdown dropdown-right">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events<span class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Calender</a></li>
-                                        <li><a href="#">Music</a></li>
-                                        <li><a href="#">Parties</a></li>
-                                        <li><a href="#">Sports</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Featured Event</a></li>
-                                        <!-- <li class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li> -->
-                                    </ul>
-                                <li><a href="contactus.html">Contact Us</a></li>
-                            </ul>
-                            <form class="navbar-form navbar-right" role="search">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                </div>
-                                <button type="submit" class="btn btn-default">Search</button>
-                            </form>
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
-                </nav>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2">
-                <ul class="menu-shortcut">
-                    <li><a href="#div_id_appetizers">Appetizers</a></li>
-                    <li><a href="#div_id_entrees">Entrees</a></li>
-                    <li><a href="#div_id_meat">Meat</a></li>
-                    <li><a href="#div_id_chicken">chicken</a></li>
-                    <li><a href="#div_id_fish">Fish</a></li>
-                    <li><a href="#div_id_vegetarian">Vegetarian</a></li>
-                    <li><a href="#div_id_dessert">Dessert</a></li>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav nav-justified">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="drinks.html">Drinks</a></li>
+                    <li><a href="#section2">Reservation</a></li>
+                    <li><a href="#section3">Events</a></li>
+                    <li><a href="#section4">Location</a></li>
+                    <li><a href="#section5">Contact</a></li>
                 </ul>
-            </div>
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-category">
-                        <div id="div_id_appetizers"></div>
-                            <h3>
-                                Appetizers
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-category">
-                        <div id="div_id_entrees"></div>
-                            <h3>
-                                Entrees
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-header">
-                        <div id="div_id_meat"></div>
-                            <h3>
-                                Meat
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-header">
-                        <div id="div_id_chicken"></div>
-                            <h3>
-                                Chicken
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-header">
-                        <div id="div_id_fish"></div>
-                            <h3>
-                                Fish
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-header">
-                        <div id="div_id_vegetarian"></div>
-                            <h3>
-                                Vegetarian
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="menu-item">
-                            <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="media-body">
-                            <div class="menu-header">
-                                <h4>Menu Item</h4>
-                            </div>
-                            <p>
-                                Item Description
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="menu-header">
-                            <div id="div_id_dessert"></div>
-                                <h3>
-                                    Dessert
-                                </h3>
-                        </div>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-md-2">
-                    <div class="menu-item">
-                        <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="media-body">
-                        <div class="menu-header">
-                            <h4>Menu Item</h4>
-                        </div>
-                        <p>
-                            Item Description
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="menu-item">
-                        <img src="img/menu_item_placeholder.png" alt="menu item image" align="middle">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="media-body">
-                        <div class="menu-header">
-                            <h4>Menu Item</h4>
-                        </div>
-                        <p>
-                            Item Description
-                        </p>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+    </div><!--/.navbar -->
+
+    <!-- Begin page content -->
+
+
     <div class="row">
-        <div class="col-lg-12">
-            <nav class="navbar navbar-inverse navbar-bottom">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-footer">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">Celebrities</a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-footer">
-                        <ul class="nav navbar-nav">
-                            <li><a href="menu.html">Menu</a></li>
-                            <li><a href="#">Nutrition Info</a></li>
-                            <li><a href="#">Employment</a></li>
-                            <li><a href="reservations.html">Reservations</a></li>
-                            <li><a href="contactus.html">Contact Us</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
+        <div class="col-sm-10 col-sm-offset-1">
+            <h1>Menu</h1>
+
+            <hr>
+    <div class="row">
+        <div class="col-lg-2 menu-list-area">
+                <ul class="menu-list">
+                    <li><a href="#"><h4>Appetizers</h4></a></li>
+                    <li><a href="#"><h4>Soups, Chili & Salads</h4></a></li>
+                    <li><a href="#"><h4>Sandwiches & Handhelds</h4></a></li>
+                    <li><a href="#"><h4>Craft Burgers</h4></a></li>
+                    <li><a href="#"><h4>Tacos & Quesadillas</h4></a></li>
+                    <li><a href="#"><h4>Ribs & Steaks</h4></a></li>
+                    <li><a href="#"><h4>Chicken & Seafood</h4></a></li>
+                    <li><a href="#"><h4>Sides</h4></a></li>
+                    <li><a href="#"><h4>Desserts</h4></a></li>
+                    <li><a href="#"><h4>Beverages</h4></a></li>
+                    <li><a href="#"><h4>Kids Menu</h4></a></li>
+                </ul>
+        </div>
+        <div class="col-lg-10">
+            <h2>Appetizers</h2><br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-6">
+
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail"><a href="#" title="Renovations"><img src="img/default-placeholder-600x600.png" class="img-responsive"></a></div>
+                            <div class="panel-body">
+                                <p>Menu Item</p>
+                                <p></p>
+
+                            </div>
+                        </div><!--/panel-->
+                    </div><!--/col-->
+
+                    <div class="col-sm-4 col-xs-6">
+
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail"><a href="#" title="Academic Institutions"><img src="img/default-placeholder-600x600.png" class="img-responsive"></a></div>
+                            <div class="panel-body">
+                                <p>Menu Item</p>
+                                <p></p>
+
+                            </div>
+                        </div><!--/panel-->
+                    </div><!--/col-->
+
+                    <div class="col-sm-4 col-xs-6">
+
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail"><a href="#" title="Interiors"><img src="img/default-placeholder-600x600.png" class="img-responsive"></a></div>
+                            <div class="panel-body">
+                                <p>Menu Item</p>
+                                <p></p>
+
+                            </div>
+                        </div><!--/panel-->
+
+                    </div><!--/col-->
+
+                    <div class="col-sm-4 col-xs-6">
+
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="img/default-placeholder-600x600.png" class="img-responsive"></a></div>
+                            <div class="panel-body">
+                                <p>Menu Item</p>
+                                <p></p>
+
+                            </div>
+                        </div><!--/panel-->
+
+                    </div><!--/col-->
+
+                    <div class="col-sm-4 col-xs-6">
+
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail"><a href="#" title="Site Planning"><img src="img/default-placeholder-600x600.png" class="img-responsive"></a></div>
+                            <div class="panel-body">
+                                <p>Menu Item</p>
+                                <p></p>
+
+                            </div>
+                        </div><!--/panel-->
+
+                    </div><!--/col-->
+
+                    <div class="col-sm-4 col-xs-6">
+
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail"><a href="#" title="Churches"><img src="img/default-placeholder-600x600.png" class="img-responsive"></a></div>
+                            <div class="panel-body">
+                                <p>Event Highlights</p>
+                                <p></p>
+
+                            </div>
+                        </div><!--/panel-->
+
+                    </div><!--/col-->
+
+                </div><!--/row-->
+            </div><!--/container-->
+
+            <hr>
+
+            <div class="divider"></div>
+
+        </div><!--/col-->
+        </div><!--/container-->
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="footer">
-                <p> 2015 CoffeeBoss All  Rights Reserved </p>
+
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+
+                <ul class="list-inline center-block">
+                    <li><a href="http://www.yelp.com/biz/celebrities-sports-grill-san-bernardino"><img src="img/icons/yelp.png"></a></li>
+                    <li><a href="http://www.facebook.com/celebrities.sportsgrill"><img src="img/icons/facebook.png"></a></li>
+                    <li><a href="http://www.tripadvisor.com/Restaurant_Review-g33009-d4946632-Reviews-Celebrities_Sports_Grill-San_Bernardino_California.html"><img src="img/icons/tripadvisor.png"></a></li>
+                    <li><a href="http://www.yelp.com/biz/celebrities-sports-grill-san-bernardino"><img src="img/icons/yelp.png"></a></li>
+                    <li><a href="http://www.youtube.com"><img src="img/icons/youtube.png"></a></li>
+                </ul>
+
+            </div><!--/col-->
+        </div><!--/container-->
+
+    </div><!--/wrap-->
+
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">Copyright ©2015 CoffeeBoss, Inc.</p>
+        </div>
+    </div>
+
+    <ul class="nav pull-right scroll-top">
+        <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+    </ul>
+
+
+    <div class="modal" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title"></h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modalCarousel" class="carousel">
+
+                        <div class="carousel-inner">
+
+                        </div>
+
+                        <a class="carousel-control left" href="#modaCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- script references -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+    <script src="js/scripts.js"></script>
 </div>
 </body>
 </html>
