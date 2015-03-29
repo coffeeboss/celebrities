@@ -94,6 +94,10 @@ hr {
     background-color: #fff;
 }
 
+.img-responsive {
+    padding-top: 20px;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -102,6 +106,7 @@ header {
     text-align: center;
     color: #fff;
     background: #666666;
+    drop-shadow: 5px;
 }
 
 header .container {
@@ -214,19 +219,19 @@ section.success {
     }
 }
 
-.portfolio #menu .portfolio-item {
+.portfolio #menu #drinks .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 0px;
 }
 
-.portfolio #menu .portfolio-item .portfolio-link {
+.portfolio #menu #drinks .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-.portfolio #menu .portfolio-item .portfolio-link .caption {
+.portfolio #menu #drinks .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -241,7 +246,7 @@ section.success {
     opacity: 1;
 }
 
-.portfolio #menu .portfolio-item .portfolio-link .caption .caption-content {
+.portfolio #menu #drinks .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
